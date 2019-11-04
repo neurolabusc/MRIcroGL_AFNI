@@ -42,7 +42,7 @@ gl.extract()
 gl.clipazimuthelevation(0.3, 0, 120)
 ```
 
-![4D](4D.png)
+![Overlay](Overlay.png)
 
 ## Viewing 4D Time Series
 
@@ -77,7 +77,7 @@ gl.generateclusters(1)
 gl.orthoviewmm(0,0,0)
 ```
 
-![Overlay](Overlay.png)
+![4D](4D.png)
 
 ## Using Templates
 
