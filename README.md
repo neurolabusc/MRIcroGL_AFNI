@@ -2,11 +2,9 @@
 
 This is a developmental version of [MRIcroGL](https://www.nitrc.org/plugins/mwiki/index.php/mricrogl:MainPage) that improves support for [AFNI (Analysis of Functional NeuroImages)](https://afni.nimh.nih.gov). While both MRIcroGL and AFNI can support popular image formats like NIfTI, AFNI has leverages custom formats (e.g. HEAD and 1D) for advanced features. This repository describes an upcoming release of MRIcroGL that exploits these formats.
 
-![Chest CT](ChestCT.jpg)
-
 ## Requirements
 
-MRIcroGL requires OpenGL 3.3 (released in 2009) or later. It is provided for Linux, MacOS and Windows computers.
+MRIcroGL requires [OpenGL 3.3](https://www.mccauslandcenter.sc.edu/mricrogl/troubleshooting) (released in 2009) or later. It is provided for Linux, MacOS and Windows computers.
 
 ## Installation
 
@@ -27,7 +25,7 @@ The image below can be generated from the [sample images](https://github.com/neu
  - The rendering shows some noise in the air around the T1 scan, choose View/RemoveHaze to create a nicer rendering.
  - You can use the clipping menu to hide parts of the T1 scan.
  
-You can also achieve the same results using the in-built Python scripting. Choose Scripting/New to show the scripting panel. Paste the code below - you will want to edit the `pth` to be the path where your images are stored. Choosing Scripting/Run to execute the script.
+You can also achieve the same results using the in-built Python scripting. Choose Scripting/New to show the scripting panel. Paste the code below - you will want to edit the `pth` to be the path where your images are stored (on Windows, it will be something like `pth = 'C:/afni/'`, note the `/` not `\` for path separators as Python uses `\` for special characters). Choosing Scripting/Run to execute the script.
 
 
 ```
