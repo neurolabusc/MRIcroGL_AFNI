@@ -4,17 +4,24 @@ This is a developmental version of [MRIcroGL](https://www.nitrc.org/plugins/mwik
 
 ## Requirements
 
-MRIcroGL requires [OpenGL 3.3](https://www.mccauslandcenter.sc.edu/mricrogl/troubleshooting) (released in 2009) or later. It is provided for Linux, MacOS and Windows computers.
+MRIcroGL requires [OpenGL 3.3](https://www.mccauslandcenter.sc.edu/mricrogl/troubleshooting) (released in 2009) or later. MRIcroGL is provided for Linux, MacOS and Windows computers.
 
 ## Installation
 
-You can get the experimental beta release of MRIcroGL (1.2.20191031) from [Github](https://github.com/neurolabusc/MRIcroGL_AFNI/releases).
-  
-Once you have downloaded the software, extract the archive and run the executable. The web page also provides some sample AFNI files, described below. You can download this processed dataset. Alternatively, you can download the [raw data](https://afni.nimh.nih.gov/pub/dist/edu/data/CD.expanded/AFNI_data6/unix_tutorial/misc/install.data.html). The raw dataset includes instructions for processing this data (in the FT_analysis/tutorial folder).
+You can get the experimental beta release of MRIcroGL (1.2.20191031) from [the Github release page](https://github.com/neurolabusc/MRIcroGL_AFNI/releases), or run one of the following commands to get the development version of MRIcroGL for Linux, Macintosh or Windows: 
+
+   * `curl -fLO https://github.com/neurolabusc/MRIcroGL_AFNI/releases/latest/download/MRIcroGL_linux.zip`
+   * `curl -fLO https://github.com/neurolabusc/MRIcroGL_AFNI/releases/latest/download/MRIcroGL_macOS.dmg`
+   * `curl -fLO https://github.com/neurolabusc/MRIcroGL_AFNI/releases/latest/download/MRIcroGL_windows.zip`
+The tutorial described below uses sample data, which you can download from the [release page](https://github.com/neurolabusc/MRIcroGL_AFNI/releases) or with this command:
+   
+   * `curl -fLO https://github.com/neurolabusc/MRIcroGL_AFNI/releases/latest/download/SampleDataset.zip`
+
+Alternatively, you can download the [raw data](https://afni.nimh.nih.gov/pub/dist/edu/data/CD.expanded/AFNI_data6/unix_tutorial/misc/install.data.html) used for the sample dataset. The raw dataset includes instructions for processing this data (in the FT_analysis/tutorial folder).
 
 ## Opening Overlays
 
-AFNI leverages .HEAD format images. MRIcroGL allows you to view these by using drag-drop, menus (e.g. File/Open), and Python scripting. If it detects that AFNI is installed, it will populate a menu File/OpenAFNI that lists (see image below).
+AFNI leverages .HEAD format images. MRIcroGL allows you to view these by using drag-drop, menus (e.g. File/Open), and Python scripting. If it detects that AFNI is installed, it will populate a menu File/OpenAFNI that provides quick access to the default AFNI images.
 
 The image below can be generated from the [sample images](https://github.com/neurolabusc/MRIcroGL_AFNI/releases) and shows how you can check the registration of the high-resolution T1 scan and the T2* BOLD sequence. 
  - Select File/Open and choose the anatomical scan.
