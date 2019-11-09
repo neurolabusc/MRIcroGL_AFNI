@@ -13,6 +13,7 @@ You can get the experimental beta release of MRIcroGL (1.2.20191031) from [the G
    * `curl -fLO https://github.com/neurolabusc/MRIcroGL_AFNI/releases/latest/download/MRIcroGL_linux.zip`
    * `curl -fLO https://github.com/neurolabusc/MRIcroGL_AFNI/releases/latest/download/MRIcroGL_macOS.dmg`
    * `curl -fLO https://github.com/neurolabusc/MRIcroGL_AFNI/releases/latest/download/MRIcroGL_windows.zip`
+   
 The tutorial described below uses sample data, which you can download from the [release page](https://github.com/neurolabusc/MRIcroGL_AFNI/releases) or with this command:
    
    * `curl -fLO https://github.com/neurolabusc/MRIcroGL_AFNI/releases/latest/download/SampleDataset.zip`
